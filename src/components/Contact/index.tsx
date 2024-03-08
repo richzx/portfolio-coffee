@@ -9,6 +9,17 @@ const Contact = () => {
           <span className='text-orange-600 opacity-[0.06] text-5xl font-extrabold md:text-9xl ' >
             CONTACT ME
           </span>
+          <form action="#">
+            <div className='flex w-full items-center justify-between gap-5 ' >
+              <input type="text" placeholder='Name' className='w-full outline-none rounded-md shadow-sm border border-orange-300 bg-white px-3 py-4 ' />
+              <input type="email" placeholder='Email' className='w-full outline-none rounded-md shadow-sm border border-orange-300 bg-white px-3 py-4 ' />
+            </div>
+            <input type="email" placeholder='Subjet' className='w-full mt-5 outline-none rounded-md shadow-sm border border-orange-300 bg-white px-3 py-4 ' />
+            <textarea cols={30} rows={12} placeholder='Message' className='w-full mt-5 outline-none rounded-md shadow-sm border border-orange-300 bg-white px-3 py-4 ' ></textarea >
+          </form>
+            <button type='button' className='text-white rounded-full bg-orange-500 hover:bg-orange-600 transition-all duration-300 w-fit px-5 py-3 font-medium  ' >
+              Submit Message
+            </button>
         </div>
       </div>
     </div>
