@@ -27,7 +27,7 @@ const Projects = () => {
     <div className="w-full px-[32px] bg-[#f6f6f6] relative z-[100] ">
       <div className='w-full flex flex-col items-center justify-center gap-10 p-16 '>
         <div className='w-full flex flex-col gap-2 justify-center items-center ' >
-          <span className='font-medium text-[30px] text-orange-600 '>My Latest Projects</span>
+          <span className='text-orange-500 text-3xl font-semibold md:text-5xl '>My Latest Projects</span>
           <p className='text-center text-gray-900 '>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <ul className='w-full flex items-center justify-center gap-5 flex-wrap ' >
